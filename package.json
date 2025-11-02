@@ -4,7 +4,9 @@
     "description": "pet shop website",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "gulp dev",
+        "build": "gulp build"
     },
     "repository": {
         "type": "git",
@@ -27,7 +29,8 @@
         "gulp-imagemin": "^6.2.0",
         "gulp-postcss": "^8.0.0",
         "gulp-rename": "^1.4.0",
-        "gulp-sass": "^4.0.2",
+        "gulp-sass": "^5.1.0",
+        "sass": "^1.80.3",
         "gulp-uglify": "^3.0.2",
         "imagemin-webp": "^5.1.0",
         "prettier": "^1.19.1",
