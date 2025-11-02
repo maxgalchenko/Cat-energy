@@ -18,9 +18,9 @@ Responsive marketing site and catalog for a pet nutrition brand. Static site bui
 
 ## Key Features
 
-- Gulp-based build: SCSS → CSS with Autoprefixer and CSSO, JS bundling via Webpack + Babel + Uglify
-- Image optimization, including WebP generation for JPEG/PNG assets
-- Live reload with BrowserSync and minified HTML/CSS/JS outputs
+-   Gulp-based build: SCSS → CSS with Autoprefixer and CSSO, JS bundling via Webpack + Babel + Uglify
+-   Image optimization, including WebP generation for JPEG/PNG assets
+-   Live reload with BrowserSync and minified HTML/CSS/JS outputs
 
 ## Tech Stack
 
@@ -36,14 +36,14 @@ Minified HTML/CSS/JS, image compression and WebP variants, and vendor prefixing 
 
 ## Quality
 
-- Linting: — • Formatting: Prettier
-- Type safety: —
-- Tests: —
-- CI: — • Coverage: —
+-   Linting: — • Formatting: Prettier
+-   Type safety: —
+-   Tests: —
+-   CI: — • Coverage: —
 
 ## Prerequisites
 
-- Node.js: `18.17.0`
+-   Node.js: `18.17.0`
 
 ## Installation
 
@@ -66,9 +66,15 @@ Open http://localhost:3000
 
 ## Available Scripts
 
-- `npm run dev` – Gulp development server with live reload (use `npx gulp dev`)
-- `npm run build` – Production build to `docs/` (use `npx gulp build`)
-- `npm test` – Placeholder script; no tests configured
+-   `npm run dev` – Gulp development server with live reload (use `npx gulp dev`)
+-   `npm run build` – Production build to `docs/` (use `npx gulp build`)
+-   `npm test` – Placeholder script; no tests configured
+
+## Screenshots
+
+![Homepage](./src/img/screenshots/homepage.png)
+
+![Catalog](./src/img/screenshots/catalog.png)
 
 ---
 
@@ -82,5 +88,3 @@ Built with ❤️ by [Maksym Galchenko](https://github.com/maxgalchenko)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 </div>
-
-
